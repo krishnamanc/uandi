@@ -11,6 +11,7 @@ import { Student } from './components/Student.jsx';
 import { Volunteer } from './components/Volunteer.jsx';
 import CircleLeader from './components/CircleLeader.jsx';
 import ChapterLeader from './components/ChapterLeader.jsx';
+import Fellow from './components/Fellow.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
     path: "/chapterleader/:id",
     element: <ChapterLeader/>
   },
+  {
+    path: "/fellow/:id",
+    element: <Fellow/>
+  }
 
 ]);
 
