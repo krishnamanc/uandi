@@ -1,7 +1,7 @@
 
 const ChapterLeader = () => {
   return (
-    <div>ChapterLeader</div>
+    <div>ChapterLeader new</div>
   )
 }
 
