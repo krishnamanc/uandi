@@ -9,20 +9,29 @@ import {
 import { Home } from './components/Home.jsx';
 import { Student } from './components/Student.jsx';
 import { Volunteer } from './components/Volunteer.jsx';
-
+import CircleLeader from './components/CircleLeader.jsx';
+import ChapterLeader from './components/ChapterLeader.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home/>
   },
   {
-    path: "/student",
+    path: "/student/:id",
     element: <Student/>
   },
   {
-    path: "/volunteer",
+    path: "/volunteer/:id",
     element: <Volunteer/>
-  }
+  },
+  {
+    path: "/circleleader/:id",
+    element: <CircleLeader/>
+  },
+  {
+    path: "/chapterleader/:id",
+    element: <ChapterLeader/>
+  },
 
 ]);
 
